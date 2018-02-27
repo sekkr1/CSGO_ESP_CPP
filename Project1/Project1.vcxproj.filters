@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{f969811f-4d06-4c02-b1ea-ee4cbec738f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Color">
+      <UniqueIdentifier>{373d5b24-17c4-4b7b-8973-11e9d2751872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\DirectX 9">
+      <UniqueIdentifier>{e794870e-0349-4f44-8a83-bf9b7d74eef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Surface">
+      <UniqueIdentifier>{e62c4614-4a52-48cc-af26-d4aad4041872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\DirectX 9\Surface">
+      <UniqueIdentifier>{68b978dd-0873-4fcd-b421-11b27d0173c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Color.cpp">
+      <Filter>Overlay\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\D3D9Overlay.cpp">
+      <Filter>Overlay\DirectX 9</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\D3D9Surface.cpp">
+      <Filter>Overlay\DirectX 9\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Surface.cpp">
+      <Filter>Overlay\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Overlay\Color.h">
+      <Filter>Overlay\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\D3D9Overlay.h">
+      <Filter>Overlay\DirectX 9</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\D3D9Surface.h">
+      <Filter>Overlay\DirectX 9\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Surface.h">
+      <Filter>Overlay\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="conf.xml" />
+  </ItemGroup>
+</Project>
